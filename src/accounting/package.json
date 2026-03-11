@@ -1,0 +1,25 @@
+{
+  "name": "account-management-system",
+  "version": "2.0.0",
+  "description": "Node.js port of legacy COBOL Account Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "accounting",
+    "modernization",
+    "legacy-migration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
